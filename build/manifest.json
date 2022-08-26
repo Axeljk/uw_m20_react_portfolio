@@ -1,0 +1,11 @@
+{
+	"name": "Axel's Portfolio",
+	"short_name": "Portfolio",
+	"icons": [{
+		"src": "favicon.svg",
+		"sizes": "512x512",
+		"type": "image/svg+xml"
+	}],
+	"start_url": ".",
+	"display": "standalone"
+}
