@@ -1,4 +1,5 @@
 import Header from "../Header";
+import Footer from "../Footer";
 
 function App() {
 	return (
@@ -6,6 +7,7 @@ function App() {
 			<Header />
 			<h1>Hey!</h1>
 			<p>I'm Axel.</p>
+			<Footer />
 		</>
 	);
 }
