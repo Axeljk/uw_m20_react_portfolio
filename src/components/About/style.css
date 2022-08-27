@@ -1,0 +1,12 @@
+#profileImage {
+	display: block;
+	max-width: 128px;
+	height: auto;
+	margin: 0.625em 1em 0.1em 2em;
+	float: left;
+	filter: drop-shadow(6px 6px #0087BD);
+}
+
+#about p {
+	padding-bottom: 1em;
+}
