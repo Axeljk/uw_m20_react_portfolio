@@ -1,0 +1,15 @@
+nav {
+    flex-grow: 1;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 5%;
+    justify-content: flex-end;
+}
+li > a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}

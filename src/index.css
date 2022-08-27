@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
@@ -6,9 +6,7 @@
 	margin: 0px;
 	box-sizing: border-box;
 	font-family: 'Lato', sans-serif;
-}
-
-body {
+	font-smooth: always;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -30,6 +28,17 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
 }

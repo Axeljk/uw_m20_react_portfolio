@@ -9,6 +9,6 @@ header {
 	padding: 0 5%;
 }
 
-header > img {
-	border: 2px solid black;
+header > h1 {
+	margin-right: 5%;
 }
