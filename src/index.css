@@ -26,8 +26,7 @@ main {
 	color: #222;
 	min-height: 100%;
 	flex-grow: 1;
-	padding: 0 10%;
-	padding-bottom: 90px;
+	padding: 1em 10% 90px 10%;
 }
 
 h1, h2, h3, h4, h5, h6 {
