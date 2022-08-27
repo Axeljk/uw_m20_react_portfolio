@@ -1,8 +1,7 @@
 {
   "name": "uw_module_20",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://Axeljk.github.io/uw_m20_react_portfolio",
+  "homepage": "https://axeljk.github.io/uw_m20_react_portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
