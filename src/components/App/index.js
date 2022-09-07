@@ -11,7 +11,7 @@ function App() {
 
 	return (
 		<>
-			<Header setPage={setPage} />
+			<Header page={page} setPage={setPage} />
 			{page === "/" &&
 				<About />}
 			{page === "/portfolio" &&

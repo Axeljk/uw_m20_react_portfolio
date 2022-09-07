@@ -16,3 +16,6 @@ li > a:hover {
 a {
 	cursor: pointer;
 }
+.highlighted {
+	background: #ffff0055;
+}

@@ -1,26 +1,31 @@
 import "./style.css";
 
 export default function Nav(props) {
+	function title(name, address) {
+		if (props.page == address)
+			return (<a onClick={() => props.setPage(address)}>
+				<h3 className="highlighted">{name}</h3>
+			</a>);
+		else
+			return (<a onClick={() => props.setPage(address)}>
+				<h3>{name}</h3>
+			</a>);
+	}
+
 	return (
 		<nav>
 			<ul>
 				<li>
-					<a onClick={() => props.setPage("/")}>
-						<h3>About&nbsp;Me</h3>
-					</a>
+					{title("About", "/")}
 				</li>
 				<li>
-					<a onClick={() => props.setPage("/portfolio")}>
-						<h3>Portfolio</h3>
-					</a>
+					{title("Portfolio", "/portfolio")}
 				</li>
 				<li>
-					<a>
-						<h3>Contact</h3>
-					</a>
+					{title("Contact", "/contact")}
 				</li>
 				<li>
-					<a>
+					<a href="%PUBLIC_URL%/assets/resume_axel_kern.pdf" download>
 						<h3>Resume</h3>
 					</a>
 				</li>
