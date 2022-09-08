@@ -25,7 +25,7 @@ export default function Nav(props) {
 					{title("Contact", "/contact")}
 				</li>
 				<li>
-					<a href="%PUBLIC_URL%/assets/resume_axel_kern.pdf" download>
+					<a href="/resume_axel_kern.pdf" download>
 						<h3>Resume</h3>
 					</a>
 				</li>

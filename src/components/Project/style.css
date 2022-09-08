@@ -1,0 +1,23 @@
+.card {
+	max-width: 400px;
+	min-width: 250px;
+	width: 20%;
+	text-align: center;
+	border-radius: 12px;
+	margin: 2% 0;
+	box-shadow: 5px 10px 10px black;
+	background: #4466bb33;
+}
+.card-header {
+	background: #00000011;
+	padding: 1em 0;
+}
+.card-body {
+	background: #99999911;
+	min-height: 300px;
+	padding: 8px 4px;
+}
+.card a {
+	display: block;
+	margin: 4px 0;
+}
